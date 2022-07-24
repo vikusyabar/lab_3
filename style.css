@@ -1,0 +1,155 @@
+.hover_visited_link{
+    color: rgb(130, 42, 150);
+    text-decoration: underline;
+    border-bottom:10px;
+}
+.hover_visited_link:link {
+    color: rgb(34, 172, 39);
+    border-bottom: 1px;
+}
+.hover_visited_link:hover {
+    color: rgb(41, 22, 81);
+    outline: rgb(226, 20, 20);
+    text-decoration: overline;
+    border-bottom: 25px;
+}
+.hover_visited_link:active{
+    color: rgb(27, 64, 70);
+    text-decoration: dotted;
+    border-bottom: 5px;
+}
+.hover_2{
+    text-decoration: none;
+}
+.hover_2:hover{
+    text-decoration:underline;
+}
+.form_1{
+    background-color: #DEE0E1;
+    width: 270px;
+    margin-left: 100px;
+}
+.form_2{
+    margin-top:50px ;
+    background-color:#D6E3F0 ;
+    width: 510px;
+    margin-left: 100px;
+}
+.form_3 {
+    background-color:#f6f6f6 ;
+    width: 750px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.title_1{
+    padding-left:80px ;
+    padding-top: 30px;
+
+}
+.exit{
+    text-decoration: none;
+    margin-left: 500px;
+    margin-top: 60px;
+    color: rgb(84, 82, 82);
+}
+.email{
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    border-color: #d8dadc;
+}
+.password{
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    border-color: #d8dadc;
+}
+.button_1{
+    height: 50px;
+    width: 290px;
+    border-radius: 15px;
+    background-color: #12a739;
+    border: none;
+    font-size:20px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+.button_1:hover{
+    background-color:#0e8b2d ;
+}
+.button_1:active{
+    background-color: #1f811d;
+}
+.Sign_up{
+    text-decoration: none;
+    margin-left: 100px;
+    color: rgb(51, 70, 167);
+    margin-bottom: 200px;
+}
+.Sign_up :hover{
+    color: rgb(99, 162, 156);
+}
+.Sign_up:active{
+    color: rgb(220, 61, 61);
+}
+.button_2{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    font-size:20px;
+    background-color: #ececec;
+    font-weight:700;
+    color: rgb(51, 70, 167);
+    margin-top: 30px;
+}
+.button_2:hover{
+    background-color: #e2e2e2;
+}
+.button_2:active{
+    background-color: #b8b8b8;
+}
+.icon {
+    height: 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 20px;
+}
+
+.v_line{
+    height: 260px;
+    color: gray;
+}
+.hr_v {
+    height:120px;
+    width: 1px;
+    background-color: gray;
+}
+.form_4{
+    background-color:#f6f6f6 ;
+    width: 750px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.text{
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    border-color: #d8dadc;
+}
+.name{
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    border-color: #d8dadc;   
+}
+.agreement{
+    text-decoration: none;
+    color:#3975b1;
+}
+.agreement:hover{
+    color: #066229;
+}
+.agreement:active{
+    color: rgb(155, 84, 84);
+}

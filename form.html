@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ukr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №4</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form_1">
+        <form action="./index.html">
+            <table >
+                <tr>
+                    <th>First name</th>
+                    <td>
+                        <input type="text" name="firstname"placeholder="Enter first name" >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Last name</th>
+                    <td>
+                        <input type="text" name="lastname" placeholder="Enter last name">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align:start ;">Email</th>
+                    <td>
+                        <input type="text" name="email" placeholder="Enter email">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align:start ;">
+                        Password
+                    </th>
+                    <td>
+                        <input type="password" name="password" placeholder="Enter password">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align:start ;">Born in</th>
+                    <td>
+                        <input type="date" name="date" >
+                    </td>
+                </tr>
+            </table>
+            <div>
+            <input type="radio" id="languageChoice1" name="contact" value="en" required="required"><label for="languageChoice1">en</label>
+            <input type="radio" id="languageChoice2" name="contact" value="ua" required="required"name="ua"><label for="languageChoice2">ua</label>
+            </div>
+            <br>
+            <select name="select_gender" id="gender">
+                <option value="1" selected disabled>select gender</option>
+                <option value="2">Women</option>
+                <option value="3">Men</option>
+                <option value="4">+-</option>
+            </select><br>
+            <br>
+            <input type='submit' value="Send">
+        </form>
+        <br>
+        <input type="file" value="Вибрати файл">
+    </div>
+
+    <div class="form_2">
+        <form action="./index.html">
+            <table style="width:500px ;" >
+                <tr>
+                    <td>Логін:</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Пароль:</td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Повторіть пароль</td>
+                    <td>
+                        <input type="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cтать:</td>
+                    <td>
+                        <input type="radio" id="gender1" name="gender" required="required"><label for="gender1">чоловік</label>
+                    <input type="radio" id="gender2" name="gender" required="required"><label for="gender2">жінка</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Вкажіть місто:</td>
+                    <td>
+                        <div>
+                            <select multiple name="user_gender" required="required"style="border: 8px; border-color: cornflowerblue;">
+                                <option value="1" selected>Житомир</option>
+                                <option value="2">Київ</option>
+                                <option value="3">Львів</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Інтереси:</td>
+                    <td>
+                        <div>
+                            <input type="checkbox" id="hobby_1" value="football">футбол
+                            <input type="checkbox" id="hobby_2" value="checks">шахи
+                            <input type="checkbox" id="hobby_3" value="art">малювання
+                            <input type="checkbox" id="hobby_4" value="music">музика
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div style="margin-left:170px ;" >
+                <input type="reset">
+                <input type="submit" name="Відправити">
+            </div>
+
+        </form>
+    </div>
+
+    <div class="form_3">
+        <div style="display:flex ;">
+            <h2 class="title_1"> Вхід</h2>
+            <a  class="exit" href="./index.html"><b> ×</b></a>
+        </div>
+        <hr style="border-left:1pxsolid #d0d0d0;">
+        <div style="display:flex;">
+            <div style="padding-left:40px ;">
+                <p style="color: #787878;">Ел. пошта, або телефон</p>
+                <input type="email" class="email">
+                <div style="padding-top:10px;">
+                    <p style="color: #787878;">Пароль</p>
+                    <input type="password" class="password">
+                </div>
+                <div>
+                <input type="checkbox" style="color:rgb(39, 107, 76);margin-top: 25px;">Запам'ятати мене
+                <a href="#" style="margin-left: 20px;text-decoration: none;color: rgb(70, 75, 219);">Нагадати пароль</a>
+                </div>
+                <button  class="button_1">Ввійти</button>
+                <a href="#" class="Sign_up">Зареєструватися</a>
+            </div>
+            <div class="v_line">
+                <div class="hr_v"></div>
+                <p >або</p>
+                <div class="hr_v"></div>
+            </div>
+            <div style="text-align: center;">
+                <p style="color: #787878;">Ввійти, як користувач</p>
+                <button class="button_2"><img src="https://www.pngplay.com/wp-content/uploads/3/Blue-Facebook-Logo-PNG-Clipart-Background.png" width="15" class="icon"></img>Facebook</button>
+                
+                <button class="button_2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"
+                        class="icon"></img>Google</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="form_4">
+        <div style="display:flex ;">
+            <h2 class="title_1"> Вхід</h2>
+            <a class="exit" href="./index.html"><b> ×</b></a>
+        </div>
+        <hr style="border-left:1pxsolid #d0d0d0;">
+        <div style="display:flex;">
+            <div style="padding-left:40px ;width: 450px;">
+                <p style="color: #787878;">Прізвище</p>
+                <input type="text" class="text">
+                <div style="padding-top:10px;">
+                    <p style="color: #787878;">Ім'я</p>
+                    <input type="text" class="name">
+                </div>
+                <div style="padding-top:10px;">
+                    <p style="color: #787878;">Ел. пошта, або телефон</p>
+                    <input type="email" class="email">
+                </div>
+                <div style="padding-top:10px;">
+                    <p style="color: #787878;">Придумайте пароль</p>
+                    <input type="password" class="password">
+                </div>
+                <p style="color: #787878;">Пароль повинен бути не менше 6 символів, складатися з цифр, латинських букв, в тому числі великих та повинен не
+                збігатися з ім'ям чи ел. поштою.</p>
+                <p style="color: #787878;"> Реєструючись ви погоджуєтесь із <a href="https://mobimania.ua/ugoda-korystuvacha/"  target="_blank" class="agreement" >угодою користувача.</a></p>
+                <button class="button_1">Зареєструватися</button>
+                <a href="#" class="Sign_up">Я уже зареєстрований</a>
+            </div>
+            <div class="v_line">
+                <div class="hr_v"></div>
+                <p>або</p>
+                <div class="hr_v"></div>
+            </div>
+            <div style="text-align: center;">
+                <p style="color: #787878;">Ввійти, як користувач</p>
+                <button class="button_2"><img
+                        src="https://www.pngplay.com/wp-content/uploads/3/Blue-Facebook-Logo-PNG-Clipart-Background.png"
+                        width="15" class="icon"></img>Facebook</button>
+    
+                <button class="button_2"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png"
+                        class="icon"></img>Google</button>
+    
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
